@@ -1,0 +1,128 @@
+@use 'reset.scss';
+
+#header-main {
+<<<<<<< HEAD
+    
+    @import "header/header-1/header-1.scss";
+
+    @import "header/header-2/header-2.scss";
+
+    @import "header/header-3/header-3.scss";
+    .header-2 {
+        padding: 0px !important;
+    }
+}
+
+#nav-main {
+    background-color: #F7F6F5 !important;
+    @import "nav-main/nav-main.scss";
+    .element-menu-category {
+        background: lighten($dark-accent, 10%) !important;
+    }
+    .menu-category-list li :hover{
+        //background: $dark-shape !important;
+        background: lighten($dark-accent, 5%) !important;
+    }
+}
+
+#content-main {
+        background-color: #F7F6F5 !important;
+    .sidebar {
+    }
+
+    #sidebar-left {
+        display: none !important;
+        @import "side-bar/element-categories/elemente-categories.scss";
+
+        @import "side-bar/element-bestseller/element-bestseller.scss";
+
+        @import "side-bar/element-newsletter/elemente-newsletter.scss";
+    }
+}
+
+#vitrine {
+    margin: 0 !important;
+    
+    @import "vitrine/element-highlight/element-highlight.scss";
+
+    @import "vitrine/element-bestseller/element-bestseller.scss";
+
+    @import "vitrine/element-promotion/element-promotion.scss";
+
+    @import "vitrine/element-content/element-content.scss";
+
+    @import "vitrine/element-latest/element-latest.scss";
+}
+
+#nav-bottom {
+    .element-banner-bottom {
+    }
+}
+.wa-chat-header {
+    background: #815076 !important;
+}
+#footer-main {
+    .footer-main-inner {
+        @import "footer/footer-1/footer-1.scss";
+
+        @import "footer/footer-3/footer-3.scss";
+    }
+
+=======
+    @import 'header/header-1/header-1.scss';
+
+    @import 'header/header-2/header-2.scss';
+
+    @import 'header/header-3/header-3.scss';
+}
+
+
+
+#nav-main {
+    @import 'nav-main/nav-main.scss';
+}
+
+#content-main {
+    .sidebar { }
+    
+    #sidebar-left { 
+        
+        @import 'side-bar/element-categories/elemente-categories.scss';
+        
+        @import 'side-bar/element-bestseller/element-bestseller.scss';
+
+        @import 'side-bar/element-newsletter/elemente-newsletter.scss';
+    }
+}
+
+
+#vitrine {
+    
+    @import 'vitrine/element-highlight/element-highlight.scss';
+
+    @import 'vitrine/element-bestseller/element-bestseller.scss';
+
+    @import 'vitrine/element-promotion/element-promotion.scss';
+
+    @import 'vitrine/element-content/element-content.scss';
+
+    @import 'vitrine/element-latest/element-latest.scss';
+}
+
+#nav-bottom {
+    .element-banner-bottom { }
+}
+
+#footer-main {
+    .footer-main-inner {
+
+        @import 'footer/footer-1/footer-1.scss';
+
+        @import 'footer/footer-3/footer-3.scss';
+
+    }
+    
+>>>>>>> b22e8b99543c47269ce40491e415b0ddb0aba296
+    .copyright {
+    }
+}

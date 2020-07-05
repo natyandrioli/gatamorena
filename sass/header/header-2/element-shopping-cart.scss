@@ -1,0 +1,110 @@
+<<<<<<< HEAD
+@import "../../paleta.scss";
+=======
+@import '../../paleta.scss';
+>>>>>>> b22e8b99543c47269ce40491e415b0ddb0aba296
+
+.element-shopping-cart {
+    .grid-shopping-cart {
+        .element-menu-top {
+            .menu-top-list {
+<<<<<<< HEAD
+                li { 
+                    color:  #F7F6F5;
+                }
+            }
+        }
+
+        .link-shopping-cart {
+            border-radius: 50px !important;
+            background-color: darken($dark-accent, 10%) !important;
+
+            .icon-shopping-cart {
+                color: $light-shade;
+            }
+
+            .shopping-cart-title {
+            }
+
+            .shopping-cart-total-products-wrapper {
+                .shopping-cart-total-products {
+                }
+            }
+
+            .shopping-cart-total-price-wrapper {
+                .shopping-cart-total-price {
+                    color: $light-shade;
+                }
+            }
+
+            .wrapper-list-products-shopping-cart {
+                .list-products-shopping-cart {
+                    .total-price-shopping-cart-wrapper {
+                        ul {
+                        }
+
+                        .total-price-shopping-cart {
+                        }
+
+                        .cart-action-buttons {
+                            .btn,
+                            .btn-cart-checkou {
+                                .btn-text {
+                                }
+                            }
+                            .btn,
+                            .btn-cart-continue,
+                            .product-add {
+                                .btn-text {
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+=======
+                li {
+
+                }
+             }
+        } 
+        
+        .link-shopping-cart {
+            
+            background-color: $dark-accent !important;
+
+            .icon-shopping-cart { }
+
+            .shopping-cart-title { }
+
+            .shopping-cart-total-products-wrapper {
+                .shopping-cart-total-products { }
+            } 
+            
+            .shopping-cart-total-price-wrapper {
+                .shopping-cart-total-price { }
+            } 
+            
+            .wrapper-list-products-shopping-cart {
+                .list-products-shopping-cart {
+                    .total-price-shopping-cart-wrapper {
+
+                        ul {}
+
+                        .total-price-shopping-cart { }
+                        
+                        .cart-action-buttons {
+                            .btn, .btn-cart-checkou {
+                                .btn-text { }
+                            }
+                            .btn, .btn-cart-continue, .product-add {
+                                .btn-text { }
+                            } 
+                        }
+                    }
+                 }
+            } 
+>>>>>>> b22e8b99543c47269ce40491e415b0ddb0aba296
+        }
+    }
+}

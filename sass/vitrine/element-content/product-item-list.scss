@@ -1,0 +1,65 @@
+@import "../../paleta.scss";
+
+#product-list {
+    .product-list-item {
+        border-radius: 20px;
+        .product-list-item-inner {
+            .product-image {
+                .label-product,
+                .label-promo {
+                }
+            }
+            .product-info {
+                .product-name {
+                    h2 {
+                        a {
+                        }
+                    }
+                }
+
+                .product-price,
+                .product-old-price {
+                    .product-big-price {
+                    }
+                }
+
+                .product-price,
+                .product-sell-price {
+                    .product-price {
+                    }
+                }
+
+                .product-unit {
+                }
+            }
+            .wrapper-product-combination {
+                display: none !important;
+            }
+            .wrapper-btn-product {
+                .wrapper-btn-buy-kit {
+                    .btn,
+                    .btn-buy-kit {
+                        background: $dark-accent !important;
+                        border-radius: 10px !important;
+                        border: 0.1px groove  $dark-accent !important;
+                        
+                        .icon-buy,
+                        .btn-icon {
+                        }
+                        .btn-text {
+                            
+                        }
+                        &:hover {
+                            background: transparent !important;
+                            border: 0.1px groove  $dark-accent !important;
+                            border-radius: 10px !important;
+                            .btn-text {
+                            color: $dark-accent;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
