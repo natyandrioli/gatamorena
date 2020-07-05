@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+{"version":3,"sourceRoot":"","sources":["../../../sass/header/header-2/header-2.scss","../../../sass/header/header-2/element-logo.scss","../../../sass/header/header-2/element-search.scss","../../../sass/header/header-2/element-shopping-cart.scss","../../../sass/paleta.scss"],"names":[],"mappings":"AAEA;EACI;;ACDA;EACI;EACA;;AACA;EACI;EACA;;ACHJ;EACI;;AAKI;EACI;;ACLJ;EACI;;AAKZ;EACI;EACA;;AAEA;EACI,OCjBF;;AD6BE;EACI,OC9BN","file":"header-2.css"}
+=======
+{"version":3,"sourceRoot":"","sources":["../../../sass/header/header-2/element-shopping-cart.scss"],"names":[],"mappings":"AAYQ;EAEI","file":"header-2.css"}
+>>>>>>> b22e8b99543c47269ce40491e415b0ddb0aba296

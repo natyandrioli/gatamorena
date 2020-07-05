@@ -1,0 +1,17 @@
+/* Error: expected "{".
+ *    ,
+ * 18 | >>>>>>> b22e8b99543c47269ce40491e415b0ddb0aba296
+ *    |                                                 ^
+ *    '
+ *   sass\paleta.scss 18:49  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 18 \2502  >>>>>>> b22e8b99543c47269ce40491e415b0ddb0aba296\d\a    \2502                                                  ^\a    \2575 \a   sass\\paleta.scss 18:49  root stylesheet';
+}
